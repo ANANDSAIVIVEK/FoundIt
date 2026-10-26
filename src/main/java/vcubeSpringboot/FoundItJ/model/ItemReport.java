@@ -48,11 +48,11 @@ public class ItemReport {
         createdAt = LocalDateTime.now();
     }
 
-	public Long getSid() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setSid(Long sid) {
+	public void setId(Long sid) {
 		this.id = sid;
 	}
 
